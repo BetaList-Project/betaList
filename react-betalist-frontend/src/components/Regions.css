@@ -1,0 +1,43 @@
+.headerTitle {
+    font-size: 72px;
+}
+
+.headerSubtitle {
+    font-size: 20px;
+    color: #999;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.regionGroup {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.regionName {
+    color: #00ccd2;
+    font-size: 20px;
+    font-weight: 700;
+    float: left;
+}
+
+.regionDeck {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.region__countryTag {
+    font-size: 16px;
+    line-height: 16px;
+    padding: 15px;
+    color: #fff;
+    background-color: #40b1bf;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.region__countryTag {
+    padding-right: 5px;
+}
