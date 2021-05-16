@@ -9,7 +9,7 @@ const NavigationBar = () => {
 				<Nav className="mr-auto">
 					<Nav.Link  as={Link} to="/">FRONTPAGE</Nav.Link>
 					<Nav.Link  as={Link} to="/regions">REGIONS</Nav.Link>
-					
+					<Nav.Link  as={Link} to="/newsletter">NEWSLETTER</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
