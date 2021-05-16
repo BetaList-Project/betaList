@@ -11,6 +11,9 @@ function App() {
 	    <div className="App">
 			<NavigationBar/>
 			<Switch>
+				<Route path='/' exact>
+					<Newsletter/>
+				</Route>
 		    	<Route path='/regions' exact>
 					<Regions />
 				</Route>	
