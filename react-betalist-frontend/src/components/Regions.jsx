@@ -10,7 +10,7 @@ const Regions = () => {
                 <h1 className='headerTitle'>Regions</h1>
                 <h2 className='headerSubtitle'>BROWSE STARTUPS BY COUNTRY</h2>
 			</header>
-			<section>
+			<section className='section'>
 				<ul>
 					{
                         // this code goes through each region in REGIONS array and creates what you see on the page for each region.
