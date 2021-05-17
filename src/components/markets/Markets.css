@@ -1,0 +1,67 @@
+.visualHeader {
+    background-size: cover;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    position: relative;
+    font-family: avenir-next, Helvetica, Arial, sans-serif;
+  }
+
+  .visualHeader__title {
+    color: #000;
+    margin: 0;
+    font-size: 72px;
+    font-weight: 700;
+    color: #000;
+  }
+
+  .visualHeader__subtitle {
+    color: #000;
+    margin: 1em 0;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+  }
+
+  .tag {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #f2f5f5;
+    color: #003739;
+    padding: 4px 5px;
+    border-radius: 3px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 2px #f2f5f5 solid;
+  }
+
+  .tag--card {
+    text-transform: none;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #00ccd2;
+    border: none;
+    color: #fff;
+    line-height: 16px;
+    width: 20.97579%;
+    margin-right: 4%;
+    display: block;
+    float: left;
+    margin-bottom: 2%
+  }
+
+  .tag__count {
+    float: right;
+    font-size: 12px;
+    margin-left: 4px;
+    color: rgba(0, 0, 0, 0.3);
+  }
+
+  .tag--card .tag__count {
+    color: rgba(255, 255, 255, 0.7);
+  }
