@@ -29,6 +29,7 @@
     <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js" crossorigin></script>
     <script src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js" crossorigin></script>
+    <link rel="stylesheet" href="../src/components/markets/Markets2.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -43,5 +44,18 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <div class="modal--signIn modal" data-behavior="sign-in-modal" style="display: inline-block; opacity: 1;">
+      <div class="modal--signIn__header">
+      <div class="betaburger">
+      <div class="betaburger__ingredients"></div>
+      </div>
+      <h1 class="modal--signIn__header__title">Sign in to BetaList</h1>
+      </div>
+      <p>Connect with makers and early adopters exchanging product feedback and ideas.</p>
+      <p>Please use your personal Twitter account.</p>
+      <a data-behavior="sign-in-redirect-url" class="button button--fullWidth button--noTextTransform button--withIcon button--twitter" href="/submit"><div className="button__icon button__icon--twitter"></div>
+      Sign in with Twitter
+      </a><p class="modal__subtle">We won't post without asking</p>
+      <a href="#close-modal" rel="modal:close" class="close-modal closeButton">✕</a></div>
   </body>
 </html>
