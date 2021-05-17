@@ -10,7 +10,7 @@ import DTecnology from './components/markets/marketComponents/DTechnology';
 function App() {
   return (
 	  <Router>
-	    <div className="App">
+	    <div classNameName="App">
 			<NavigationBar/>
 			<Switch>
 				<Route path='/' exact>

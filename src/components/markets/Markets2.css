@@ -4389,6 +4389,7 @@ html {
     letter-spacing: 1px;
     margin: 0 0.2em;
     white-space: nowrap;
+    text-decoration: none;
   }
   @media screen and (max-width: 480px) {
     .headerNav__link {
@@ -4403,6 +4404,7 @@ html {
     padding: 0 1em;
     margin: 0;
     line-height: 3em;
+    text-decoration: none;
   }
   @media screen and (max-width: 480px) {
     .headerNav__link > a:link,
