@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import NavigationBar from './components/navbar/NavigationBar';
 import Regions from './components/regions/Regions';
 import Newsletter from './components/newsletter/Newsletter';
+import MarketsPage from './components/markets/Markets.jsx';
+import DTecnology from './components/markets/marketComponents/DTechnology';
 
 function App() {
   return (
@@ -19,7 +21,13 @@ function App() {
 				</Route>	
 				<Route path='/newsletter' exact>
 					<Newsletter />
-				</Route>	
+				</Route>
+				<Route path='/markets' exact>
+					<MarketsPage />
+				</Route>
+				<Route path='/markets/marketComponents' exact>
+					<DTecnology />
+				</Route>		
 	    	</Switch>
 		</div>
 	  </Router>

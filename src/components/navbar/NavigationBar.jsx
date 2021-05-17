@@ -10,9 +10,7 @@ const NavigationBar = () => {
 					<Nav.Link  as={Link} to="/">FRONTPAGE</Nav.Link>
 					<Nav.Link  as={Link} to="/regions">REGIONS</Nav.Link>
 					<Nav.Link  as={Link} to="/newsletter">NEWSLETTER</Nav.Link>
-					<Nav.Link><a href="https://wip.co/">MAKER COMMUNITY</a></Nav.Link>
-					<Nav.Link><a href="https://startup.jobs/">STARTUP JOBS</a></Nav.Link>
-
+					<Nav.Link  as={Link} to="/markets">MARKETS</Nav.Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
